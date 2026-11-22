@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Median" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainer</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/colorOutline</item>
+        <item name="colorOutlineVariant">@color/colorOutlineVariant</item>
+        <item name="colorSurfaceContainerLowest">@color/colorSurfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/colorSurfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/colorSurfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/colorSurfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/colorSurfaceContainerHighest</item>
+        <item name="titleTextColor">@color/titleTextColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="materialAlertDialogTheme">@style/MaterialAlertDialogTheme</item>>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@style/LegacyAlertDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@style/DatePickerDialogTheme</item>
+        <item name="android:timePickerDialogTheme">@style/DatePickerDialogTheme</item>
+    </style>
+
+    <style name="Theme.Median.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Median.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_bar_text_color</item>
+        <item name="itemTextColor">@color/bottom_bar_text_color</item>
+    </style>
+
+    <style name="MaterialAlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/MyMaterialAlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MyMaterialAlertDialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/MyMaterialAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarButtonStyle">@style/MyMaterialAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="MyMaterialAlertDialogButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="LegacyAlertDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/titleTextColor</item>
+        <item name="android:buttonBarButtonStyle">@style/MyAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/bottom_bar_highlight_color</item>
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="ThemeOverlay.Material3.Dialog">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Median</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <attr name="ic_action_refresh" format="reference"/>
+    <attr name="ic_action_search" format="reference"/>
+    <attr name="ic_action_share" format="reference"/>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <attr name="inactiveColor" format="color" />
+    <attr name="activeColor" format="color" />
+    <attr name="handleBackground" format="reference" />
+
+    <declare-styleable name="HandleView">
+        <attr name="iconDrawable" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="inactiveColor" />
+        <attr name="activeColor" />
+        <attr name="handleBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeHistoryNavigationLayout">
+        <attr name="leftHandleDrawable" format="reference" />
+        <attr name="rightHandleDrawable" format="reference" />
+        <attr name="handleBackground" />
+        <attr name="leftHandleLabel" format="string" />
+        <attr name="inactiveColor" />
+        <attr name="activeColor" />
+    </declare-styleable>
+
+    <style name="BottomNavTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

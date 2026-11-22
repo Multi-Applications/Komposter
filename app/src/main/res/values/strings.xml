@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Komposter</string>
+	<string name="app_logo">App Logo</string>
+
+	<string name="setup_title">Spieleinstellungen</string>
+	<string name="players_title">Spieler</string>
+	<string name="hints_for_komposter">Hinweis für Komposter</string>
+	<string name="categories_title">Kategorien</string>
+	<string name="categories_choose">Wählen</string>
+	<string name="start_game">Spiel starten</string>
+	<string name="back">Zurück</string>
+	<string name="all">Alle</string>
+	<string name="none">Keine</string>
+	<string name="add_player">Spieler hinzufügen</string>
+	<string name="roles_title">Rollenverteilung</string>
+	<string name="tap_or_drag_to_reveal">Tippen oder ziehen zum Aufdecken</string>
+	<string name="tap_or_drag_to_hide">Tippen oder ziehen zum Verdecken</string>
+	<string name="you_are_komposter">Du bist Komposter!</string>
+	<string name="hint_prefix">Tipp: %1$s</string>
+	<string name="fallback_hint">Täusche die anderen!</string>
+	<string name="next">Weiter</string>
+	<string name="discussion_title">Disskusion</string>
+	<string name="starting_player">%1$s beginnt!</string>
+	<string name="starting_player_default">Spieler beginnt!</string>
+	<string name="discussion_text">Reihum nennt jeder von euch\neinen Begriff,\nder zum geheimen Wort passt!\n\nSobald ihr glaubt,\nzu wissen wer der Komposter ist,\nkönnt ihr euch beraten\nund gemeinsam abstimmen.</string>
+	<string name="vote">Abstimmen</string>
+	<string name="reveal_title">Auflösung</string>
+	<string name="komposter_singular">Der Komposter war:</string>
+	<string name="komposter_plural">Die Komposter waren:</string>
+	<string name="secret_word">Geheimes Wort: </string>
+	<string name="play_again">Erneut spielen</string>
+	<string name="back_to_start">Zurück zum Startbildschirm</string>
+	<string name="edit_player_title">Spieler bearbeiten</string>
+	<string name="player_name">Spielername</string>
+	<string name="save">Speichern</string>
+	<string name="remove">Entfernen</string>
+	<string name="toast_min_players">Mindestens 3 Spieler erforderlich.</string>
+	<string name="toast_choose_category">Bitte wähle mindestens eine Kategorie aus.</string>
+	<string name="edit">Bearbeiten</string>
+	<string name="delete">Löschen</string>
+	<string name="close">Schließen</string>
+	<string name="cancel_game_title">Spiel beenden?</string>
+	<string name="cancel_game_message">Möchtest du die aktuelle Runde wirklich abbrechen?</string>
+	<string name="keep_playing">Weiterspielen</string>
+	<string name="leave_game">Spiel verlassen</string>
+</resources>
